@@ -57,8 +57,9 @@ h1 {
 h2 {
 
     text-align: center;
+    line-height: 100%;
     top: 200px;
-    margin: 15%;
+    margin: 10% 0 1% 0;
 }
 /* a.button {
     -webkit-appearance: button;
@@ -70,10 +71,10 @@ h2 {
 } */
 
 a:link {
-    color: rgb(195, 212, 198);
+    color: rgb(142, 189, 151);
     text-decoration: none;
 }
-a :visited {color: white}
+a:visited {color: rgb(206, 224, 224)}
 
 a:hover {
     color: #0000EE;
@@ -133,8 +134,8 @@ footer {
 
 #loc2 {
     position: relative;
-    left: 5%;
-    top: 10%;
+    left: 8%;
+    top: 100px;
     width: 50%;
     height: 50%;
     padding: 10px;
@@ -159,12 +160,12 @@ footer {
 }
 
 .sidebar {
-    width: 300px;
+    width: 400px;
     height: 900px;
     position: sticky;
     float: right;
     display: block;
-    background: rgba(28, 59, 9, 0.363);
+    background: rgba(21, 48, 5, 0.562);
     padding: .7em 0.5em 2.0em .7em;
     font-family: inherit;
     font-size: 20px;
@@ -172,11 +173,32 @@ footer {
     text-align: center;
     letter-spacing: 2px;
     line-height: 100%;
-    color: rgb(226, 222, 224);
+    color: rgb(125, 167, 161);
     margin: 6% 0;
-    padding: 1px;
+    /* padding: 1px; */
     z-index: 1;
 }
 #color{
-    color: white;
+  font-style: oblique;
+    font-size: medium;
+    font-weight: 300;
+}
+
+
+
+
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
 }
