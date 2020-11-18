@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elli's Bed n Breakfast</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+</head>
+
+<body>
+    
+    <div class="wrapper">
+    <header>
+        <section>
+
+            <h1 class="h1">Elli's Bed and Breakfast</h1>
+            <nav>
+
+                <!-- BOOK NOW BUTTON -->
+                <button class="button">BOOK NOW!</button>
+            </nav>
+        </section>
+    </header>
+    <div class="sidebar">
+        <p>
+        <div id="center"><a href="#">
+            <h2>About Us</h2>
+            Dolphins cornerback cover two drive .  Slot tight end long snapper long snapper 
+            .  Peyton manning center rush Peyton Manning 2-point conversion Chargers Reggie Wayne linebacker 
+            snap pass I formation guard Marvin Harrison interception Titans Patriots 
+            Hall of Fame football cover two tackle defensive end 2-point conversion Hall of Fame center 
+            Reggie Wayne personal foul kickoff Marvin Harrison rush running back slot Texans 
+            cover two touchdown center Peyton Manning . </p>
+        </a>
+     <p><a href="#"><h2></h2>See Available Rooms</h2></a></p></div></div>
+    <section id="space"> -->
+        <div class="w3-content w3-section">
+            <p id="loc1">
+                <img class="mySlides w3-animate-fading" src="./assets/sleep.jpeg" style="width:100%">
+            </p>
+            <p id="loc2">
+                <img class="mySlides w3-animate-fading" src="./assets/exotic.jpeg" style="width:100%">
+            </p>
+            <p id="loc3">
+                <img class="mySlides w3-animate-fading" src="./assets/relax.jpeg" style="width:100%">
+            </p>
+            <p id="loc4">
+                <img class="mySlides w3-animate-fading" src="./assets/laugh.jpeg" style="width: 100%">
+            </p>
+            <p id="loc1"><img class="mySlides w3-animate-fading" src="./assets/cuddle.jpeg" style="width: 100%"></p>
+            <p id="loc2"><img class="mySlides w3-animate-fading" src="./assets/corner.jpeg" style="width: 100%"></p>
+            <p id="loc3"><img class="mySlides w3-animate-fading" src="./assets/bed.jpeg" style="width: 100%"></p>
+            <p id="loc4"><img class="mySlides w3-animate-fading" src="./assets/view.jpeg" style="width: 100%"></p>
+            
+        </div>
+
+        <script>
+            var myIndex = 0;
+            car();
+
+            function car() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(car, 8000);
+            }
+        </script>
+
+    <!--Main Section-->
+    <!-- Large photo -->
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <!-- <marquee behavior="scroll" direction="left">
+            <img src="./assets/cubs.jpg" width="100" height="100">
+            </marquee>
+             -->
+        <!--Legal items, navigational items-->
+    </footer>
+</body>
+
+</html>
