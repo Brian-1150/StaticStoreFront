@@ -9,6 +9,9 @@ body {
     background-size: cover;
 
 }
+/* section {
+    margin: 2%;
+} */
 
 .header {
     position: fixed;
@@ -16,7 +19,7 @@ body {
     right: 0;
     left: 0;
     width: 100%;
-    height: 150px;
+    height: 25%;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD187obzOt2O9J4ZAizrr3hYopjrvMV_a1vw&usqp=CAU);
     border: 2px inset rgb(66, 70, 71);
     box-shadow: 5px 5px 10px grey;
@@ -26,32 +29,32 @@ body {
 
 h1 {
     color: rgb(88, 88, 75);
-    font-size: 80px;
+    font-size: 5.5vw;
     font-family: cursive;
     text-shadow: 2px 2px 5px rgb(22, 21, 21);
-    letter-spacing: 5px;
-    margin: auto;
+    letter-spacing: .1vw;
+    margin: 1%;
 }
 
 #button {
     background-color: rgb(98, 109, 172);
-    width: 300px;
-    height: 50px;
-    padding: 10px 10px 10px 10px;
-    position: absolute;
+    width: 20vw;
+    height: 4vw;
+    /* padding: 10px 10px 10px 10px; */
+    position: realative;
     border-radius: 7px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 650;
-    font-size: xxx-large;
+    font-size: 3vw;
     text-shadow: 2px 2px rgb(156, 119, 92);
     border-bottom: 10px solid rgb(58, 58, 55);
     letter-spacing: 4px;
     color: rgb(213, 218, 228);
-    position: fixed;
+    position: absolute;
     float: right;
     right: 2%;
-    top: 5%;
-    /* overflow: auto; */
+    top: 25%;
+    overflow: hidden;
 }
 
 h2 {
@@ -61,14 +64,7 @@ h2 {
     top: 200px;
     margin: 10% 0 1% 0;
 }
-/* a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
 
-    text-decoration: none;
-    color: initial;
-} */
 
 a:link {
     color: rgb(142, 189, 151);
@@ -80,10 +76,6 @@ a:hover {
     color: #0000EE;
 }
 
-/* a:link { color:#33348e; text-decoration: none; }
-a:visited { color:#33348e; text-decoration: none; }
-a:hover { color:#33348e; text-decoration: none; } */
-/* a:active { color:#7476b4; text-decoration: underline; } */
 
 #space {
     position: relative;
@@ -95,15 +87,15 @@ footer {
     position: relative;
 }
 
-.w3-content {
+.slide-content {
     max-width: 1980px
 }
 
-.w3-auto {
+.slide-auto {
     max-width: 2140px
 }
 
-.w3-animate-fading {
+.slide-animate-fading {
     animation: fading 10s infinite
 }
 
@@ -119,48 +111,48 @@ footer {
     }
 }
 
-.w3-section, .w3-code {
+.slide-section, .slide-code {
     margin-top: 10px!important;
     margin-bottom: 10px!important
 }
 
 #loc1 {
     position: sticky;
-    left: 100px;
-    top: 20%;
-    width: 50%;
-    bottom: 2500px;
+    left: 2%;
+    top: 35%;
+    width: 60%;
+    /* bottom: 2500px; */
 }
 
 #loc2 {
-    position: relative;
+    position: sticky;
     left: 8%;
-    top: 100px;
-    width: 50%;
+    top: 40%;
+    width: 60%;
     height: 50%;
     padding: 10px;
 }
 
 #loc3 {
-    position: relative;
+    position: sticky;
     left: 30%;
-    top: 1px;
-    bottom: 2500px;
-    width: 50%;
+    top: 30%;
+    /* bottom: 2500px; */
+    width: 60%;
     padding: 10px;
 }
 
 #loc4 {
-    position: relative;
+    position: sticky;
     left: 10%;
-    top: 1px;
-    bottom: 2500px;
-    width: 50%;
+    top: 50%;
+    /* bottom: 2500px; */
+    width: 70%;
     padding: 10px;
 }
 
 .sidebar {
-    width: 400px;
+    width: 25%;
     height: 900px;
     position: sticky;
     float: right;
@@ -201,4 +193,7 @@ footer {
     top: 40%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 60%; /* Set the width of the positioned div */
+}
+#top {
+    margin: 1%;
 }
