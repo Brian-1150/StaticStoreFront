@@ -19,7 +19,7 @@ body {
     right: 0;
     left: 0;
     width: 100%;
-    height: 25%;
+    height: 20%;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD187obzOt2O9J4ZAizrr3hYopjrvMV_a1vw&usqp=CAU);
     border: 2px inset rgb(66, 70, 71);
     box-shadow: 5px 5px 10px grey;
@@ -61,7 +61,7 @@ h2 {
 
     text-align: center;
     line-height: 100%;
-    top: 200px;
+    /* top: 20%; */
     margin: 10% 0 1% 0;
 }
 
@@ -168,7 +168,7 @@ footer {
     line-height: 100%;
     color: rgb(125, 167, 161);
     /* margin: 25% 0; */
-    /* padding: 1px; */
+    padding: 10% 1% 1% 1%;
     z-index: 1;
 }
 #color{
